@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shop Around</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <div class="boundary">
+    <!-- begin main -->
+    <div id="main">
+      <div id="left">
+        <!-- begin category -->
+        <div class="Category">
+          <div class="title">Category</div>
+          <div class="list">
+            <ul>
+              <li>
+                <img src="images/cat.gif" alt="">Category 1   
+              </li>
+              <li>
+                <img src="images/cat.gif" alt="">Category 2
+              </li>
+              <li>
+                <img src="images/cat.gif" alt="">Category 3
+              </li>
+              <li>
+                <img src="images/cat.gif" alt="">Category 4
+              </li>
+              <li>
+                <img src="images/cat.gif" alt="">Category 5
+              </li>
+              <li>
+                <img src="images/cat.gif" alt="">Category 6
+              </li>
+              <li id="dif">
+                <img src="images/cat.gif" alt="">Category 7
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- end category -->
+        <!-- begin search -->
+        <div class="search">
+          <div class="title">Search by</div>
+          <div class="content">
+            <form action="" name="search">
+              <label for="key">Keyword</label>
+              <input type="text" name="key" id="key"> <br>
+              <label for="cat">Category</label>
+              <select id="cat" name="cat">
+                <option value="">--Select category--</option>
+                <option value="1">Black Cat</option>
+                <option value="2">White Cat</option>
+                <option value="3">Yellow Cat</option>
+                <option value="4">Normal Cat</option>
+              </select>
+              <label for="from">Price</label>
+              <input type="text" name="from" id="from" size="5"> to <input type="text" name="to" id="to" size="5"> <br>
+              <input type="submit" value="search" name="submit" id="submit" onclick="validate()">
+            </form>
+            <div> 
+              <img src="images/bul.gif" alt=""> 
+              <a href="#">Advanced search</a>
+            </div>
+            <div>
+              <img src="images/bul.gif" alt="">
+              <a href="#">Contact customer support</a>
+            </div>
+          </div>
+        </div>
+        <!-- end search -->
+      </div>
+      <div id="right">
+        <!-- begin slider -->
+        <div class="slider">
+          <img src="images/slide1.jpg" alt="">
+        </div>
+        <!-- end slider -->
+      </div>
+    </div>
+    <!-- end main -->
+    <!-- begin footer -->
+    <div id="footer">
+      <p><a href="#">Home</a> <span>|</span> <a href="#">Support</a> <span>|</span> <a href="#">Account</a> <span>|</span> <a href="#">Store</a> <span>|</span> <a href="#">Contact</a></p>
+    </div>
+    <!-- end footer -->
+  </div>
+</body>
+</html>
